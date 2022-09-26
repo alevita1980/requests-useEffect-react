@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 const UseEffect00 = () => {
   useEffect(() => {
-    console.log("Ahora: ",new Date);
+    console.log("Ahora: ", new Date());
     setTimeout(() => {
-    console.log("Después: ", new Date)
+      console.log("Después: ", new Date())
     }, 4000);
   }, []);
 

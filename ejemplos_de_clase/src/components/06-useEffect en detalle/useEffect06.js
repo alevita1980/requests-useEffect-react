@@ -17,8 +17,8 @@ const UseEffect06 = () => {
   return (
     <div>
       <button
-        onClick={() => {setIndex(index + 1)}}> Presioname!</button>
-      <div style={{margin: "30px", width: "100px", height: "100px", background: color }}>
+        onClick={() => { setIndex(index + 1) }}> Presioname!</button>
+      <div style={{ margin: "30px", width: "100px", height: "100px", background: color }}>
         {colores[index]}
       </div>
     </div>

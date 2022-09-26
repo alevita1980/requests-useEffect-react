@@ -1,4 +1,5 @@
 import "./App.css";
+import Axios00 from "./components/00-axios get/axiosGet00";
 import UseEffect00 from "./components/00-useEffect/useEffect00.";
 import UseEffect01 from "./components/01-useEffect y useState/useEffect01.";
 import UseEffect02 from "./components/02-useEffect y APIs/useEffect02";
@@ -13,13 +14,14 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-      {/* <UseEffect00/>  */}
-      {/* <UseEffect01/>  */}
-      {/* <UseEffect02/>  */}
-      {/* <UseEffect03/>  */}
-      {/* <UseEffect04/>  */}
-      {/* <AxiosPost05/>  */}
-      {/* <UseEffect06/>  */}
+        {/* <Axios00/>  */}
+        {/* <UseEffect00/>  */}
+        {/* <UseEffect01/>  */}
+        {/* <UseEffect02/>  */}
+        {/* <UseEffect03/>  */}
+        {/* <UseEffect04/>  */}
+        {/* <AxiosPost05/>  */}
+        {/* <UseEffect06/>  */}
 
       </header>
     </div>

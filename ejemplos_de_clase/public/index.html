@@ -45,7 +45,8 @@
         try {
           const response = await axios.get('https://jsonplaceholder.typicode.com/todos/1');
           console.log(response);
-          document.write(response.data.title);
+          const {userId, id, title, completed} = response.data
+          document.write(`${id}, ${userId}, ${title}, ${completed}`);
         } catch (error) {
           console.error(error);
         }

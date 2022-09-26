@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import axios from "axios";
 import Animation from "../animations/exampleAnimation";
 
@@ -24,7 +24,7 @@ const AxiosPost05 = () => {
       </ul>
     );
   };
-  
+
   const setUser = async () => {
     setPosts("Loading...");
     try {
@@ -47,8 +47,8 @@ const AxiosPost05 = () => {
   return (
     <div style={{ textAlign: "left" }}>
       <h1>Prueba 05: Insertamos un usuario</h1>
-      <button onClick={()=>setUser(userData)}> Inserte usuario </button>
-      <h2>{posts === "Loading..." ? <Animation/> : userList(posts) }</h2>
+      <button onClick={() => setUser(userData)}> Inserte usuario </button>
+      <h2>{posts === "Loading..." ? <Animation /> : userList(posts)}</h2>
     </div>
   );
 };
